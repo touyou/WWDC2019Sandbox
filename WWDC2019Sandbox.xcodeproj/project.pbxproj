@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4658F90A22A60422000F2A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F90922A60422000F2A1D /* AppDelegate.swift */; };
+		4658F90C22A60422000F2A1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F90B22A60422000F2A1D /* SceneDelegate.swift */; };
+		4658F90F22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4658F90D22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld */; };
+		4658F91122A60422000F2A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F91022A60422000F2A1D /* ContentView.swift */; };
+		4658F91322A60424000F2A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4658F91222A60424000F2A1D /* Assets.xcassets */; };
+		4658F91622A60424000F2A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4658F91522A60424000F2A1D /* Preview Assets.xcassets */; };
+		4658F91922A60424000F2A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4658F91722A60424000F2A1D /* LaunchScreen.storyboard */; };
+		4658F92422A60424000F2A1D /* WWDC2019SandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F92322A60424000F2A1D /* WWDC2019SandboxTests.swift */; };
+		4658F92F22A60424000F2A1D /* WWDC2019SandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F92E22A60424000F2A1D /* WWDC2019SandboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4658F92022A60424000F2A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4658F8FE22A60422000F2A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4658F90522A60422000F2A1D;
+			remoteInfo = WWDC2019Sandbox;
+		};
+		4658F92B22A60424000F2A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4658F8FE22A60422000F2A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4658F90522A60422000F2A1D;
+			remoteInfo = WWDC2019Sandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4658F90622A60422000F2A1D /* WWDC2019Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC2019Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4658F90922A60422000F2A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4658F90B22A60422000F2A1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4658F90E22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WWDC2019Sandbox.xcdatamodel; sourceTree = "<group>"; };
+		4658F91022A60422000F2A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4658F91222A60424000F2A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4658F91522A60424000F2A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4658F91822A60424000F2A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4658F91A22A60424000F2A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4658F91F22A60424000F2A1D /* WWDC2019SandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC2019SandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4658F92322A60424000F2A1D /* WWDC2019SandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2019SandboxTests.swift; sourceTree = "<group>"; };
+		4658F92522A60424000F2A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4658F92A22A60424000F2A1D /* WWDC2019SandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC2019SandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4658F92E22A60424000F2A1D /* WWDC2019SandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2019SandboxUITests.swift; sourceTree = "<group>"; };
+		4658F93022A60424000F2A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4658F90322A60422000F2A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4658F91C22A60424000F2A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4658F92722A60424000F2A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4658F8FD22A60422000F2A1D = {
+			isa = PBXGroup;
+			children = (
+				4658F90822A60422000F2A1D /* WWDC2019Sandbox */,
+				4658F92222A60424000F2A1D /* WWDC2019SandboxTests */,
+				4658F92D22A60424000F2A1D /* WWDC2019SandboxUITests */,
+				4658F90722A60422000F2A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4658F90722A60422000F2A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4658F90622A60422000F2A1D /* WWDC2019Sandbox.app */,
+				4658F91F22A60424000F2A1D /* WWDC2019SandboxTests.xctest */,
+				4658F92A22A60424000F2A1D /* WWDC2019SandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4658F90822A60422000F2A1D /* WWDC2019Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				4658F90922A60422000F2A1D /* AppDelegate.swift */,
+				4658F90B22A60422000F2A1D /* SceneDelegate.swift */,
+				4658F91022A60422000F2A1D /* ContentView.swift */,
+				4658F91222A60424000F2A1D /* Assets.xcassets */,
+				4658F91722A60424000F2A1D /* LaunchScreen.storyboard */,
+				4658F91A22A60424000F2A1D /* Info.plist */,
+				4658F90D22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld */,
+				4658F91422A60424000F2A1D /* Preview Content */,
+			);
+			path = WWDC2019Sandbox;
+			sourceTree = "<group>";
+		};
+		4658F91422A60424000F2A1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4658F91522A60424000F2A1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4658F92222A60424000F2A1D /* WWDC2019SandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4658F92322A60424000F2A1D /* WWDC2019SandboxTests.swift */,
+				4658F92522A60424000F2A1D /* Info.plist */,
+			);
+			path = WWDC2019SandboxTests;
+			sourceTree = "<group>";
+		};
+		4658F92D22A60424000F2A1D /* WWDC2019SandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4658F92E22A60424000F2A1D /* WWDC2019SandboxUITests.swift */,
+				4658F93022A60424000F2A1D /* Info.plist */,
+			);
+			path = WWDC2019SandboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4658F90522A60422000F2A1D /* WWDC2019Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4658F93322A60424000F2A1D /* Build configuration list for PBXNativeTarget "WWDC2019Sandbox" */;
+			buildPhases = (
+				4658F90222A60422000F2A1D /* Sources */,
+				4658F90322A60422000F2A1D /* Frameworks */,
+				4658F90422A60422000F2A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDC2019Sandbox;
+			productName = WWDC2019Sandbox;
+			productReference = 4658F90622A60422000F2A1D /* WWDC2019Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4658F91E22A60424000F2A1D /* WWDC2019SandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4658F93622A60424000F2A1D /* Build configuration list for PBXNativeTarget "WWDC2019SandboxTests" */;
+			buildPhases = (
+				4658F91B22A60424000F2A1D /* Sources */,
+				4658F91C22A60424000F2A1D /* Frameworks */,
+				4658F91D22A60424000F2A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4658F92122A60424000F2A1D /* PBXTargetDependency */,
+			);
+			name = WWDC2019SandboxTests;
+			productName = WWDC2019SandboxTests;
+			productReference = 4658F91F22A60424000F2A1D /* WWDC2019SandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4658F92922A60424000F2A1D /* WWDC2019SandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4658F93922A60424000F2A1D /* Build configuration list for PBXNativeTarget "WWDC2019SandboxUITests" */;
+			buildPhases = (
+				4658F92622A60424000F2A1D /* Sources */,
+				4658F92722A60424000F2A1D /* Frameworks */,
+				4658F92822A60424000F2A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4658F92C22A60424000F2A1D /* PBXTargetDependency */,
+			);
+			name = WWDC2019SandboxUITests;
+			productName = WWDC2019SandboxUITests;
+			productReference = 4658F92A22A60424000F2A1D /* WWDC2019SandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4658F8FE22A60422000F2A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = touyou;
+				TargetAttributes = {
+					4658F90522A60422000F2A1D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4658F91E22A60424000F2A1D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4658F90522A60422000F2A1D;
+					};
+					4658F92922A60424000F2A1D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4658F90522A60422000F2A1D;
+					};
+				};
+			};
+			buildConfigurationList = 4658F90122A60422000F2A1D /* Build configuration list for PBXProject "WWDC2019Sandbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4658F8FD22A60422000F2A1D;
+			productRefGroup = 4658F90722A60422000F2A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4658F90522A60422000F2A1D /* WWDC2019Sandbox */,
+				4658F91E22A60424000F2A1D /* WWDC2019SandboxTests */,
+				4658F92922A60424000F2A1D /* WWDC2019SandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4658F90422A60422000F2A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4658F91922A60424000F2A1D /* LaunchScreen.storyboard in Resources */,
+				4658F91622A60424000F2A1D /* Preview Assets.xcassets in Resources */,
+				4658F91322A60424000F2A1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4658F91D22A60424000F2A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4658F92822A60424000F2A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4658F90222A60422000F2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4658F90F22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld in Sources */,
+				4658F90A22A60422000F2A1D /* AppDelegate.swift in Sources */,
+				4658F91122A60422000F2A1D /* ContentView.swift in Sources */,
+				4658F90C22A60422000F2A1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4658F91B22A60424000F2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4658F92422A60424000F2A1D /* WWDC2019SandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4658F92622A60424000F2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4658F92F22A60424000F2A1D /* WWDC2019SandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4658F92122A60424000F2A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4658F90522A60422000F2A1D /* WWDC2019Sandbox */;
+			targetProxy = 4658F92022A60424000F2A1D /* PBXContainerItemProxy */;
+		};
+		4658F92C22A60424000F2A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4658F90522A60422000F2A1D /* WWDC2019Sandbox */;
+			targetProxy = 4658F92B22A60424000F2A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4658F91722A60424000F2A1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4658F91822A60424000F2A1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4658F93122A60424000F2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4658F93222A60424000F2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4658F93422A60424000F2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "WWDC2019Sandbox/Preview\\ Content";
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WWDC2019Sandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019Sandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4658F93522A60424000F2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "WWDC2019Sandbox/Preview\\ Content";
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WWDC2019Sandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019Sandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4658F93722A60424000F2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				INFOPLIST_FILE = WWDC2019SandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019SandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC2019Sandbox.app/WWDC2019Sandbox";
+			};
+			name = Debug;
+		};
+		4658F93822A60424000F2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				INFOPLIST_FILE = WWDC2019SandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019SandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC2019Sandbox.app/WWDC2019Sandbox";
+			};
+			name = Release;
+		};
+		4658F93A22A60424000F2A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				INFOPLIST_FILE = WWDC2019SandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019SandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WWDC2019Sandbox;
+			};
+			name = Debug;
+		};
+		4658F93B22A60424000F2A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				INFOPLIST_FILE = WWDC2019SandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019SandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WWDC2019Sandbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4658F90122A60422000F2A1D /* Build configuration list for PBXProject "WWDC2019Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4658F93122A60424000F2A1D /* Debug */,
+				4658F93222A60424000F2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4658F93322A60424000F2A1D /* Build configuration list for PBXNativeTarget "WWDC2019Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4658F93422A60424000F2A1D /* Debug */,
+				4658F93522A60424000F2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4658F93622A60424000F2A1D /* Build configuration list for PBXNativeTarget "WWDC2019SandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4658F93722A60424000F2A1D /* Debug */,
+				4658F93822A60424000F2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4658F93922A60424000F2A1D /* Build configuration list for PBXNativeTarget "WWDC2019SandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4658F93A22A60424000F2A1D /* Debug */,
+				4658F93B22A60424000F2A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4658F90D22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4658F90E22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodel */,
+			);
+			currentVersion = 4658F90E22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodel */;
+			path = WWDC2019Sandbox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4658F8FE22A60422000F2A1D /* Project object */;
+}
