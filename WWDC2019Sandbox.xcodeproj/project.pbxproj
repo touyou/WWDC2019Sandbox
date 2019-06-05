@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460BBBA322A75FEB008D938D /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BBBA222A75FEB008D938D /* RotatedBadgeSymbol.swift */; };
 		4658F90A22A60422000F2A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F90922A60422000F2A1D /* AppDelegate.swift */; };
 		4658F90C22A60422000F2A1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658F90B22A60422000F2A1D /* SceneDelegate.swift */; };
 		4658F90F22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4658F90D22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		460BBBA222A75FEB008D938D /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		4658F90622A60422000F2A1D /* WWDC2019Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC2019Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4658F90922A60422000F2A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4658F90B22A60422000F2A1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,13 +160,12 @@
 				4658F90B22A60422000F2A1D /* SceneDelegate.swift */,
 				4658F96322A6133A000F2A1D /* LandmarkList.swift */,
 				4658F91022A60422000F2A1D /* LandmarkDetail.swift */,
+				46B595CC22A74BDA001C8550 /* Badge.swift */,
 				4658F91222A60424000F2A1D /* Assets.xcassets */,
 				4658F91722A60424000F2A1D /* LaunchScreen.storyboard */,
 				4658F91A22A60424000F2A1D /* Info.plist */,
 				4658F90D22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld */,
 				4658F91422A60424000F2A1D /* Preview Content */,
-				46B595CC22A74BDA001C8550 /* Badge.swift */,
-				46B595CE22A74C26001C8550 /* HexagonParameters.swift */,
 			);
 			path = WWDC2019Sandbox;
 			sourceTree = "<group>";
@@ -203,6 +204,7 @@
 				4658F93E22A60B41000F2A1D /* MapView.swift */,
 				4658F96122A612A4000F2A1D /* LandmarkRow.swift */,
 				46B595D222A74F4D001C8550 /* BadgeSymbol.swift */,
+				460BBBA222A75FEB008D938D /* RotatedBadgeSymbol.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -230,6 +232,7 @@
 		4658F95C22A60D96000F2A1D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				46B595CE22A74C26001C8550 /* HexagonParameters.swift */,
 				4658F95D22A60DA4000F2A1D /* Landmark.swift */,
 				4658F95F22A60E99000F2A1D /* Data.swift */,
 				46C7452422A670BF003900DF /* UserData.swift */,
@@ -396,6 +399,7 @@
 				4658F96022A60E99000F2A1D /* Data.swift in Sources */,
 				4658F96222A612A4000F2A1D /* LandmarkRow.swift in Sources */,
 				4658F96422A6133A000F2A1D /* LandmarkList.swift in Sources */,
+				460BBBA322A75FEB008D938D /* RotatedBadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,18 +566,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WWDC2019Sandbox/WWDC2019Sandbox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "WWDC2019Sandbox/Preview\\ Content";
 				DEVELOPMENT_TEAM = B4S4333JDW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WWDC2019Sandbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019Sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_UIKITFORMAC = YES;
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -585,18 +589,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WWDC2019Sandbox/WWDC2019Sandbox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "WWDC2019Sandbox/Preview\\ Content";
 				DEVELOPMENT_TEAM = B4S4333JDW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WWDC2019Sandbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.WWDC2019Sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_UIKITFORMAC = YES;
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
