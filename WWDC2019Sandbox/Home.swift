@@ -41,7 +41,7 @@ struct CategoryHome : View {
                 .navigationBarItems(trailing: PresentationButton(Image(systemName: "person.crop.circle")
                     .imageScale(.large)
                     .accessibility(label: Text("User Profile"))
-                    .padding(), destination: Text("User Profile")))
+                    .padding(), destination: ProfileHost()))
         }
     }
 }
