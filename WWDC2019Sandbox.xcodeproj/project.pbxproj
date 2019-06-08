@@ -202,27 +202,16 @@
 		4658F90822A60422000F2A1D /* WWDC2019Sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				4665AF6722ABEFEF00CA26C5 /* CoreDataCloudKit */,
+				4665AF6622ABEFC100CA26C5 /* SwiftUITutorial */,
 				46C7452622A6734B003900DF /* WWDC2019Sandbox.entitlements */,
-				4658F95C22A60D96000F2A1D /* Models */,
-				4658F94122A60D8C000F2A1D /* Resources */,
-				4658F94022A60D66000F2A1D /* Supporting Views */,
-				460BBBF622A8B521008D938D /* Profiles */,
 				4658F90922A60422000F2A1D /* AppDelegate.swift */,
 				4658F90B22A60422000F2A1D /* SceneDelegate.swift */,
-				460BBBF222A8AF88008D938D /* CategoryRow.swift */,
-				4658F96322A6133A000F2A1D /* LandmarkList.swift */,
-				4658F91022A60422000F2A1D /* LandmarkDetail.swift */,
-				46B595CE22A74C26001C8550 /* HexagonParameters.swift */,
-				460BBBFD22A8B792008D938D /* HikeBadge.swift */,
-				460BBBA622A7B128008D938D /* HikeDetail.swift */,
-				460BBBA722A7B128008D938D /* HikeView.swift */,
-				460BBBB022A7BA45008D938D /* Home.swift */,
 				4658F91222A60424000F2A1D /* Assets.xcassets */,
 				4658F91722A60424000F2A1D /* LaunchScreen.storyboard */,
 				4658F91A22A60424000F2A1D /* Info.plist */,
 				4658F90D22A60422000F2A1D /* WWDC2019Sandbox.xcdatamodeld */,
 				4658F91422A60424000F2A1D /* Preview Content */,
-				460BBC0122A8BEF9008D938D /* PageViewController.swift */,
 			);
 			path = WWDC2019Sandbox;
 			sourceTree = "<group>";
@@ -306,6 +295,33 @@
 				460BBBAE22A7B1E5008D938D /* GraphCapsule.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4665AF6622ABEFC100CA26C5 /* SwiftUITutorial */ = {
+			isa = PBXGroup;
+			children = (
+				460BBC0122A8BEF9008D938D /* PageViewController.swift */,
+				460BBBF222A8AF88008D938D /* CategoryRow.swift */,
+				4658F96322A6133A000F2A1D /* LandmarkList.swift */,
+				4658F91022A60422000F2A1D /* LandmarkDetail.swift */,
+				46B595CE22A74C26001C8550 /* HexagonParameters.swift */,
+				460BBBFD22A8B792008D938D /* HikeBadge.swift */,
+				460BBBA622A7B128008D938D /* HikeDetail.swift */,
+				460BBBA722A7B128008D938D /* HikeView.swift */,
+				460BBBB022A7BA45008D938D /* Home.swift */,
+				4658F95C22A60D96000F2A1D /* Models */,
+				4658F94122A60D8C000F2A1D /* Resources */,
+				4658F94022A60D66000F2A1D /* Supporting Views */,
+				460BBBF622A8B521008D938D /* Profiles */,
+			);
+			path = SwiftUITutorial;
+			sourceTree = "<group>";
+		};
+		4665AF6722ABEFEF00CA26C5 /* CoreDataCloudKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDataCloudKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
