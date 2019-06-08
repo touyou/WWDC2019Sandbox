@@ -23,9 +23,8 @@ struct CategoryHome : View {
     var body: some View {
         NavigationView {
             List {
-                
                 FeaturedLandmarks(landmarks: featured)
-                    .scaledToFill().frame(height: 200)
+                    .scaledToFill().frame(height: 250)
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 ForEach(categories.keys.sorted().identified(by: \.self)) { key in
@@ -49,7 +48,12 @@ struct CategoryHome : View {
 struct FeaturedLandmarks: View {
     var landmarks: [Landmark]
     var body: some View {
-        landmarks[0].image(forSize: 250).resizable()
+        PageView(
+            features.map {
+                FeatureCard(landmark: $0)
+                    .scaledToFill()
+        })
+            .frame(height: 250)
     }
 }
 
